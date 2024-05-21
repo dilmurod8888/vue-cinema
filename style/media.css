@@ -1,0 +1,457 @@
+@media(max-width:1200px){
+    .intro{
+        height: 550px;
+    }
+    .title{
+        font-weight: 400;
+    }
+}
+@media(max-width:1140px){
+    .series_box{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .film_box{
+        max-width: 540px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .widow{
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 30.64%, rgba(255, 255, 255, 0) 100.72%);
+    }
+    .collections_card{
+        min-width: 350px;
+        min-height: 193px;
+        flex-shrink: 0;
+    }
+    .collections_box{
+        overflow: hidden;
+        overflow-x: scroll;
+        gap: 25px;
+    }
+    
+}
+@media(max-width:1000px){
+    .intro{
+        height: 480px;
+    }
+    .intro_title{
+        font-size: 55px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .collections_box{
+        gap: 20px;
+    }
+    .game{
+        height: 400px;
+    }
+    .intro_text{
+        margin: 30px auto;
+        text-align: center;
+    }
+    .intro_info{
+        justify-content: center;
+    }
+    .footer_text{
+        font-size: 17px;
+    }
+}
+@media(max-width:900px){
+    .widow{
+        background: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        margin-top: 40px;
+        height: 470px;
+        overflow: hidden;
+    }
+    .widow_img{
+        width: 380px;
+    }
+    .footer{
+        margin-top: 40px;
+        padding: 22px 0;
+    }
+    .footer_info{
+        gap: 25px;
+    }
+    .footer_text{
+        font-size: 16px;
+    }
+    .game{
+        height: 350px;
+        gap: 20px;
+    }
+    .game_title{
+        font-size: 35px;
+        line-height: 100%;
+    }
+    .game_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .collections_box{
+        gap: 25px;
+    }
+    .widow_text{
+        margin: 30px auto;
+        text-align: center;
+    }
+    .widow .link{
+        margin: 0 auto;
+    }
+}
+@media(max-width:800px){
+    .game{
+        height: 300px;
+    
+    }
+   
+    .widow{
+        height: 420px;
+    }
+    .film{
+        text-align: center;
+    }
+    .series{
+        text-align: center;
+    }
+    .film_card{
+        width: 240px;
+        height: 330px;
+        padding: 25px 15px 18px;
+        gap: 12px;
+    }
+    .film_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+    .title{
+        margin: 30px auto;
+        font-size: 32px;
+        line-height: 100%;
+    }
+    .intro_title{
+        font-size: 45px;
+    }
+    .intro_text{
+        margin: 20px auto;
+    }
+    .link,.intro_link{
+        width: 140px;
+        height: 40px;
+    }
+    .intro{
+        height: 430px;
+    }
+    .header_top{
+        padding: 15px 0;
+    }
+    .header_top img{
+        width: 40px;
+    }
+    .nav_logo span{
+        font-size: 16px;
+    }
+    .nav_logo img{
+        width: 90px;
+    }
+    .footer_box{
+        gap: 10px 50px;
+    }
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .nav_list{
+        position: absolute;
+        background-color:#040D1F;
+        flex-direction: column;
+        z-index: 9;
+        top: 0;
+        right: 0;
+        padding: 30px;
+        padding-top: 80px;
+        text-align: center;
+        height: 100vh;
+        transform: translateX(110%);
+        transition: 1s;
+    }
+    .nav_link span{
+        padding: 20px 6px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu:focus~.nav_list{
+        transform: translate(0);
+    }
+    .nav{
+        padding: 15px 0;
+    }
+    .footer_text{
+        font-size: 15px;
+    }
+    .collections{
+        text-align: center;
+    }
+}
+@media(max-width:700px){
+    .widow{
+        margin-top: 20px;
+        height: 350px;
+    }
+    .widow_img{
+        width: 320px;
+    }
+    .collections_box{
+        gap: 15px;
+    }
+    .widow_text{
+        margin: 15px auto;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .footer{
+        margin-top: 30px;
+        padding: 18px 0;
+    }
+    .footer_info{
+        gap: 25px;
+        justify-content: center;
+    }
+    .footer_text{
+        font-size: 14px;
+    }
+    .footer img{
+        width: 100px;
+    }
+    .footer_box{
+        gap: 5px 50px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:600px){
+    .game{
+        height: 250px;
+        gap: 15px;
+    }
+    .game_title{
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .game_text{
+        line-height: 120%;
+    }
+    .intro{
+        height: 380px;
+    }
+    .intro_title{
+        font-size: 38px;
+    }
+    .intro_text{
+        line-height: 20px;
+        font-size: 15px;
+        margin: 15px auto;
+    }
+    .link,.intro_link{
+        width: 140px;
+        height: 40px;
+    }
+    .nav_link span{
+        padding: 10px 0;
+    }
+    .header_top{
+        padding: 10px 0;
+    }
+    .header_top img{
+        width: 35px;
+    }
+    .footer{
+        margin-top: 25px;
+        padding: 18px 0;
+    }
+    .footer img{
+        width: 95px;
+    }
+    .footer_info{
+        gap: 20px;
+    }
+    .footer_text{
+        font-size: 13px;
+    }
+    .footer{
+        padding: 16px 0;
+    }
+}
+@media(max-width:570px){
+    .series_box{
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .series_card{
+        flex-shrink: 0;
+        width: 200px;
+        gap: 10px;
+        min-height: 170px;
+    }
+    .footer img{
+        width: 90px;
+    }
+    .series_title{
+        font-size: 20px;
+    }
+    .series_card img{
+        width: 32px;
+    }
+    .film_box{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .film_card:hover .film_play{
+        transform: unset;
+    }
+    .footer{
+        padding: 14px 0;
+    }
+    .film_play,
+    .film_text,
+    .film_time,
+    .film_title{
+        transform: unset;
+    }
+    .collections_box{
+        gap: 10px;
+    }
+    .film_card:hover{
+        box-shadow: unset;
+    }
+    .film_card{
+        flex-shrink: 0;
+    }
+    .film_box{
+        gap: 20px;
+    }
+    .film_play{
+        width: 35px;
+    }
+    .film_time{
+        padding: 4px 20px;
+    }
+    .film_card{
+        width: 220px;
+        height: 290px;
+        padding: 15px 12px;
+        gap: 8px;
+    }
+    .film_text{
+        text-align: justify;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+    .title{
+        font-size: 27px;
+        margin: 15px 0;
+        line-height: 100%;
+    }
+    .widow{
+        margin-top: 15px;
+        height: 300px;
+    }
+    .widow_img{
+        width: 280px;
+    }
+
+    .widow_text{
+        margin: 15px auto;
+        font-size: 16px;
+        line-height: 140%;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+}
+@media(max-width:500px){
+    .game{
+        height: 200px;
+        gap: 10px;
+    }
+    .game .link{
+        width: 120px;
+        height: 35px;
+    }
+    .game_title{
+        font-size: 24px;
+    }
+    .game_text{
+    font-size: 14px;
+    }
+}
+@media(max-width:400px){
+    .game{
+        height: 180px;
+    }
+    .game .link{
+        width: 100px;
+        height: 30px;
+    }
+    .game_title{
+        font-size: 27px;
+    }
+    .game_text{
+    font-size: 15px;
+    }
+    .nav_logo span{
+        font-size: 14px;
+    }
+    .nav_logo img{
+        width: 80px;
+    }
+    .intro{
+        height: 320px;
+    }
+    .intro_title{
+        font-size: 31px;
+    }
+    .intro_text{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 15px auto;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow-y:scroll;
+    }
+    .link,.intro_link{
+        width: 120px;
+        height: 35px;
+    }
+    .widow{
+        margin-top: 15px;
+        height: 250px;
+    }
+    .widow_img{
+        width: 200px;
+    }
+    .widow_text{
+        margin: 12px auto;
+        line-height: 130%;
+    }
+}
